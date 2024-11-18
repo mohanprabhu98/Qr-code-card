@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* || GENERAL STUDIES */
+body{
+    font-family: "outfit";
+    min-height: 100vh;
+    background-color: hsl(212,45%,89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-container img{
+    width:100%;
+    border-radius: 10px;
+}
+.qr-container {
+    padding:1rem;
+    width:320px;
+    height:auto;
+    margin-inline: auto;
+    background-color: white;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.qr-container h3 {
+    font-size: 20px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding:0 1rem
+}
+.qr-container p{
+    font-size: 14px;
+    color: hsl(216, 15%, 48%);
+    line-height: 1.3;
+    word-spacing: .1em;
+    padding: 0 .8rem;
+    margin-bottom: .8rem;
+}
